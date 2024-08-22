@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ALURA CHALLENGE</h1>
+        </header>
+        <main>
+            <div class="input-area">
+                <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="button-area">
+                <button class="encrypt" onclick="encriptar()">Encriptar</button>
+                <button class="decrypt" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </main>
+        <aside>
+            <div class="result-area">
+                <textarea id="outputText" readonly></textarea>
+                <button id="copyButton">Copiar</button>
+            </div>
+        </aside>
+    <script src="js/js.js"></script>
+</body>
+</html>
